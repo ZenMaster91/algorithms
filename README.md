@@ -1,4 +1,6 @@
 # Algorithms examples
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/21d46090787040e39b2c1c6621b81ece)](https://www.codacy.com/app/colunga91/algorithms?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ZenMaster91/algorithms&amp;utm_campaign=Badge_Grade)
+
 Some example algorithms for the Algorithmics course in the [School of Computer Science] (https://ingenieriainformatica.uniovi.es/) in the [University of Oviedo] (http://www.uniovi.es).
 
 You can run the JUnit test cases to check whether everything is working properly. 
