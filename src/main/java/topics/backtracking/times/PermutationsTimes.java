@@ -14,7 +14,7 @@ public class PermutationsTimes {
 	static int n;
 	static int[] v;
 	static int[] sol;
-	static boolean[] mark; 
+	private static boolean[] mark; 
 	static int counter = 0;
 	
 	public static void main(String arg[]) {

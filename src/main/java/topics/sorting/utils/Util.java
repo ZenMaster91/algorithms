@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
  * @author viceg
  */
 public class Util {
-	static Logger log = LoggerFactory.getLogger(Util.class);
+	private static Logger log = LoggerFactory.getLogger(Util.class);
 	
 	/**
 	 * Logs messages for the sorting algorithm

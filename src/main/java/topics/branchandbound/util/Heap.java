@@ -85,8 +85,7 @@ public class Heap {
         UUID parentID = node.getParentID(); //Find its parent node
 
         while (parentID != null) { //While there is a parent node
-        	node = usedNodes.get(parentID);
-            result.add(node);
+            result.add(usedNodes.get(parentID));
             parentID = node.getParentID();
         }
               
