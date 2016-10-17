@@ -1,18 +1,18 @@
 package topics.backtracking;
 
+import static org.junit.Assert.*;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import junit.framework.TestCase;
-
 /**
  * SubsetsGivenSum JUnit tests
  * @author viceg
  */
-public class SubsetsGivenSumTest extends TestCase {
+public class SubsetsGivenSumTest {
 	private static Logger log = LoggerFactory.getLogger(SubsetsGivenSumTest.class);
 	private SubsetsGivenSum sum;
 	

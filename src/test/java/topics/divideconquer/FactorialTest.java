@@ -1,7 +1,8 @@
 package topics.divideconquer;
 
-import static org.junit.Assert.assertEquals;
-import org.junit.BeforeClass;
+import static org.junit.Assert.*;
+
+import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
 
@@ -15,8 +16,8 @@ public class FactorialTest {
 	/**
 	 * Initializes the object to perform tests
 	 */
-	@BeforeClass
-	public static void setup() {
+	@Before
+	public void setUp() {
 		factorial = new Factorial();
 	}
 	

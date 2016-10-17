@@ -1,8 +1,9 @@
 package topics.branchandbound;
 
-import static org.junit.Assert.assertEquals;
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,16 +19,16 @@ public class AgentsTasksTest {
 	/**
 	 * Initializes the object to perform tests
 	 */
-	@BeforeClass
-	public static void setup() {
+	@Before
+	public void setUp() {
 		log.trace("Agents Tasks Tests - Setup");
 	}
 	
 	/**
 	 * Ends the object to perform tests
 	 */
-	@AfterClass
-	public static void teardown() {
+	@After
+	public void tearDown() {
 		log.trace("Agents Tasks Tests - Teardown");
 	}
 	

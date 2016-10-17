@@ -1,5 +1,7 @@
 package topics.backtracking;
 
+import static org.junit.Assert.*;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Ignore;
@@ -7,13 +9,11 @@ import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import junit.framework.TestCase;
-
 /**
  * ChessQueensOne JUnit tests
  * @author viceg
  */
-public class ChessHorseOneTest extends TestCase {
+public class ChessHorseOneTest {
 	private static Logger log = LoggerFactory.getLogger(ChessHorseOneTest.class);
 	private ChessHorseOne chess;
 	

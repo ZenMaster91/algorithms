@@ -2,7 +2,7 @@ package topics.divideconquer;
 
 import static org.junit.Assert.assertEquals;
 
-import org.junit.BeforeClass;
+import org.junit.Before;
 import org.junit.Test;
 
 /**
@@ -15,8 +15,8 @@ public class MergesortTests {
 	/**
 	 * Initializes the object to perform tests
 	 */
-	@BeforeClass
-	public static void setup() {
+	@Before
+	public void setUp() {
 		sort = new Mergesort();
 	}
 	
